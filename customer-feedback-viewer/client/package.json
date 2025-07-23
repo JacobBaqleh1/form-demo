@@ -1,0 +1,29 @@
+{
+  "name": "customer-feedback-viewer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "@blueprintjs/core": "^4.0.0",
+    "@blueprintjs/icons": "^4.0.0",
+    "@progress/kendo-react-buttons": "^5.0.0",
+    "@progress/kendo-react-inputs": "^5.0.0",
+    "@progress/kendo-react-dropdowns": "^5.0.0",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "vite": "^2.0.0",
+    "eslint": "^7.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "eslint-plugin-import": "^2.0.0"
+  }
+}
